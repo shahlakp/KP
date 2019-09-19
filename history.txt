@@ -1,0 +1,321 @@
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f
+$ git clone https://github.com/channabasava1760/test.git
+Cloning into 'test'...
+warning: You appear to have cloned an empty repository.
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f
+$ ls
+'$RECYCLE.BIN'/  'System Volume Information'/   test/
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f
+$ cd test/
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ ls
+file1.txt
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git add file1.txt
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   file1.txt
+
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git config --global user.email "channabasava.biradar@gmail.com"
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git config --global user.name "channabasava1760
+> "git config --list
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_rx]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, mand line)
+    --default <value>     with --get, use default value when missing entry
+
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git config --global user.name "channabasava1760
+"git config --list
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_rx]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, mand line)
+    --default <value>     with --get, use default value when missing entry
+
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git config --global user.name "channabasava1760
+"git config --list
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_rx]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, mand line)
+    --default <value>     with --get, use default value when missing entry
+
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git config --global user.name "channabasava"1760"
+> git config --global user.name "channabasava1760"
+> git config --global user.name "channabasava1760
+"git config --list
+> git config --list
+> git config --global user.email "channabasava.biradar@gmail.com"
+> git config --global user.name "channabasava"1760"
+git config --global user.name "channabasava1760"
+git config --global user.name "channabasava1760"
+bash: $'git config --list\ngit config --list\ngit config --global user.email nnabasava.biradar@gmail.com\ngit config --global user.name channabasava1760':mmand not found
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ "git config --list
+git config --list
+git config --global user.email "channabasava.biradar@gmail.com"
+git config --global user.name "channabasava1760"
+> git config --^C
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git config --global user.email "channabasava.biradar@gmail.com"
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git config --global user.name "channabasava1760"
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge --skip -- %f
+filter.lfs.process=git-lfs filter-process --skip
+filter.lfs.required=true
+credential.helper=manager
+user.email=channabasava.biradar@gmail.com
+user.name=channabasava1760
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   file1.txt
+
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git commit -m "first commit"
+[master (root-commit) e580e58] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file1.txt
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git push origin
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 218 bytes | 109.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/channabasava1760/test.git
+ * [new branch]      master -> master
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git remote show
+origin
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/channabasava1760/test.git
+  Push  URL: https://github.com/channabasava1760/test.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git add *
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git commit -m "second commit"
+[master d1aaf33] second commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 f2.txt
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git push origin
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 244 bytes | 244.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/channabasava1760/test.git
+   e580e58..d1aaf33  master -> master
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git clone https://github.com/shahlakp/KP.git
+Cloning into 'KP'...
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 8 (delta 0), reused 5 (delta 0), pack-reused 0
+Unpacking objects: 100% (8/8), done.
+
+ISTRAC@DESKTOP-J0N55L9 MINGW64 /f/test (master)
+$ git commit -m "second commit"
